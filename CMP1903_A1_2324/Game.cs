@@ -35,6 +35,7 @@ namespace CMP1903_A1_2324
             } 
             else if (userInput.KeyChar.ToString().ToUpper() == "N")
             {
+                Console.WriteLine("\n\nSuccessfully exited rolls!");
                 return false;
             }
 
@@ -80,9 +81,9 @@ namespace CMP1903_A1_2324
         {
             BeginRound();
 
-            if (Continue())
+            while (Continue())
             {
-                return BeginRound();
+                BeginRound();
             }
 
             return _sum;

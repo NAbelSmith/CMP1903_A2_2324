@@ -34,6 +34,7 @@ namespace CMP1903_A1_2324
             int sumOfRound = game.BeginRound();
             // Checks if sum of round is equal to the actual sum of the rolled values
             Debug.Assert(sumOfRound == (game.die1.value + game.die2.value + game.die3.value), $"Game BeginRound error! Dice accumulated to {sumOfRound} but dice did not add to outputted sum.");
+            Debug.Assert(sumOfRound > 2 && sumOfRound < 19, $"Game BeginRound error! Dice accumulated to {sumOfRound} which is outside the maximum and minimum value.");
             // Checks if each respetive die rolled within boundaries
             Debug.Assert(game.die1.value < 1 || game.die1.value > 6, $"Die Roll error! Die 1 rolled a {game.die1.value} which is not between 1 and 6.");
             Debug.Assert(game.die2.value < 1 || game.die2.value > 6, $"Die Roll error! Die 2 rolled a {game.die2.value} which is not between 1 and 6.");

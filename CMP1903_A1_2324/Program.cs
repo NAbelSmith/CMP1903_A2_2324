@@ -26,6 +26,7 @@ namespace CMP1903_A1_2324
             game.StartGame();
 
             // Stop automatic termination of program
+            Console.WriteLine("Press any key to terminate the program.");
             Console.ReadKey();
         }
     }
