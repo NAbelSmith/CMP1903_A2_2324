@@ -15,15 +15,17 @@ namespace CMP1903_A1_2324
 
         // Set properties (value in this case)
         private int _value;
+        private static Random _random = new Random();
 
         // Roll method, rolls the die
         public int Roll()
         {
-            // Create Random
-            Random random = new Random();
 
-            // Return a random integer between 1 and 6
-            return random.Next(1, 7);
+            // Get new random integer between 1 and 6 and store in value property
+            _value = _random.Next(1, 7);
+
+            // Return the new value
+            return _value;
         }
 
     }

@@ -17,15 +17,16 @@ namespace CMP1903_A1_2324
 
             // Create new Game object
             Game game = new Game();
+            Die dieTest = new Die();
 
             // Create new Testing object
             Testing test = new Testing();
 
             // Endless loop
-            while (true)
-            {
-                game.Start();
-            }
+            game.BeginRound();
+
+            // Stop automatic termination of program
+            Console.ReadKey();
         }
     }
 }
