@@ -17,6 +17,8 @@ namespace CMP1903_A1_2324
         private int _value;
         private static Random _random = new Random();
 
+        public int value { get { return _value; } }
+
         // Roll method, rolls the die
         public int Roll()
         {

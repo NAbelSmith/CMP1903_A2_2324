@@ -23,7 +23,7 @@ namespace CMP1903_A1_2324
             Testing test = new Testing();
 
             // Endless loop
-            game.BeginRound();
+            game.StartGame();
 
             // Stop automatic termination of program
             Console.ReadKey();

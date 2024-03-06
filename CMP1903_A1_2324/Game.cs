@@ -71,7 +71,14 @@ namespace CMP1903_A1_2324
             roundTotal += dieRoll;
 
             // Output Statistics
-            Console.WriteLine($"\nROUND STATISTICS\nRound Total: {roundTotal}\nRound Average: {Convert.ToSingle(roundTotal)/3}\n\nGAME STATISTICS\nGame Total: {_sum}\nGame Average: {Convert.ToSingle(_sum) / (3*_rounds)}");
+            Console.WriteLine($"\nROUND STATISTICS\nRound Total: {roundTotal}\nRound Average: {Convert.ToSingle(roundTotal) / 3}\n\nGAME STATISTICS\nGame Total: {_sum}\nGame Average: {Convert.ToSingle(_sum) / (3 * _rounds)}");
+
+            return roundTotal;
+        }
+
+        public int StartGame()
+        {
+            BeginRound();
 
             if (Continue())
             {
