@@ -17,10 +17,12 @@ namespace CMP1903_A1_2324
 
             // Create new Game object
             Game game = new Game();
-            Die dieTest = new Die();
 
             // Create new Testing object
             Testing test = new Testing();
+
+            // Test game functions as intended
+            test.RunTest();
 
             // Endless loop
             game.StartGame();
