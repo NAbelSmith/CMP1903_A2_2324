@@ -32,7 +32,7 @@ namespace CMP1903_A1_2324
         public Game()
         {
             // Ensure set value for _numOfDie is within allowed range
-            if (_numOfDie == 0)
+            if (_numOfDie <= 1)
             {
                 Console.WriteLine($"Set number of die ({_numOfDie}) is lower than the minimum number (2). Set number of die to 2.");
                 _numOfDie = 2;
