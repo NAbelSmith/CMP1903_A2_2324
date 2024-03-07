@@ -28,17 +28,23 @@ namespace CMP1903_A1_2324
 
             // Checks if each die rolled within boundaries
             int rollResult = die.Roll();
-            Debug.Assert(rollResult < 1 || rollResult > 6, $"Die Roll error! Die rolled a {rollResult} which is not between 1 and 6." );
+            Debug.Assert(rollResult > 1 || rollResult < 7, $"Die Roll error! Die rolled a {rollResult} which is not between 1 and 6." );
 
             // Checking game for errors
             int sumOfRound = game.BeginRound();
-            // Checks if sum of round is equal to the actual sum of the rolled values
-            Debug.Assert(sumOfRound == (game.die1.value + game.die2.value + game.die3.value), $"Game BeginRound error! Dice accumulated to {sumOfRound} but dice did not add to outputted sum.");
+
+            int combinedValuesOfDice = 0;
+
+            // Checks if each respetive die rolled within boundaries & fetches 
+            for (int i = 0; i <= game.NumOfDie-1; i++)
+            {
+                combinedValuesOfDice += game.DieList[i].Value;
+                Debug.Assert(game.DieList[i].Value > 1 || game.DieList[i].Value < 7, $"Die Roll error! Die {i+1} rolled a {game.DieList[i].Value} which is not between 1 and 6.");
+            }
+
+            // Checks if sum of round is equal to the actual sum of the rolled values and within expected boundaries
             Debug.Assert(sumOfRound > 2 && sumOfRound < 19, $"Game BeginRound error! Dice accumulated to {sumOfRound} which is outside the maximum and minimum value.");
-            // Checks if each respetive die rolled within boundaries
-            Debug.Assert(game.die1.value < 1 || game.die1.value > 6, $"Die Roll error! Die 1 rolled a {game.die1.value} which is not between 1 and 6.");
-            Debug.Assert(game.die2.value < 1 || game.die2.value > 6, $"Die Roll error! Die 2 rolled a {game.die2.value} which is not between 1 and 6.");
-            Debug.Assert(game.die3.value < 1 || game.die3.value > 6, $"Die Roll error! Die 3 rolled a {game.die3.value} which is not between 1 and 6.");
+            Debug.Assert(sumOfRound == (combinedValuesOfDice), $"Game BeginRound error! Dice accumulated to {combinedValuesOfDice} but dice did not add to outputted sum ({sumOfRound}).");
 
             Console.WriteLine("\nTest complete!");
         }
