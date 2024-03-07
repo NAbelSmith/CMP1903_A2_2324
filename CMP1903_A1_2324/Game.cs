@@ -55,13 +55,13 @@ namespace CMP1903_A1_2324
             if (userInput.KeyChar.ToString().ToUpper() == "Y")
             {
                 return true;
-            } 
+            }
             else if (userInput.KeyChar.ToString().ToUpper() == "N")
             {
                 Console.WriteLine("\n\nSuccessfully exited rolls!");
                 return false;
             }
-
+            Console.WriteLine($"\n\nInput failed - your input of {userInput.KeyChar.ToString().ToUpper()} was rejected!\nYou may only input a Y for yes or N for no, other inputs will be rejected!");
             return Continue();
         }
 
