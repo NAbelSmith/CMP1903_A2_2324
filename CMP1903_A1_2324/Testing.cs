@@ -36,7 +36,7 @@ namespace CMP1903_A1_2324
             int combinedValuesOfDice = 0;
 
             // Checks if each respetive die rolled within boundaries & fetches 
-            for (int i = 0; i == game.NumOfDie-1; i++)
+            for (int i = 0; i <= game.NumOfDie-1; i++)
             {
                 combinedValuesOfDice += game.DieList[i].Value;
                 Debug.Assert(game.DieList[i].Value > 1 || game.DieList[i].Value < 7, $"Die Roll error! Die {i+1} rolled a {game.DieList[i].Value} which is not between 1 and 6.");

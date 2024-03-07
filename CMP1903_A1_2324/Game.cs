@@ -24,6 +24,8 @@ namespace CMP1903_A1_2324
 
         // Number of die
         private int _numOfDie = 3;
+
+        // Method to return number of die - for testing
         public int NumOfDie { get { return _numOfDie; } }
 
         // Constructor
@@ -39,13 +41,9 @@ namespace CMP1903_A1_2324
             // Instantitae DiceList Property
             DieList = new Die[_numOfDie];
 
-            Console.WriteLine(_numOfDie - 1);
-            for (int i = 0; i == _numOfDie-1; i++)
+            for (int i = 0; i <=_numOfDie-1; i++)
             {
-                Console.WriteLine("Created die");
-                Die die = new Die();
-                Console.WriteLine(die.Roll());
-                DieList.Append(die);
+                DieList[i] = new Die();
             }
         }
 
@@ -87,9 +85,7 @@ namespace CMP1903_A1_2324
             int roundTotal = 0;
 
             // Roll All Die
-            Console.WriteLine(_numOfDie);
-            Console.WriteLine(DieList.ToString());
-            for (int i = 0; i == _numOfDie-1; i++)
+            for (int i = 0; i <=_numOfDie-1; i++)
             {
                 roundTotal += RollDie(DieList[i], i + 1);
             }
