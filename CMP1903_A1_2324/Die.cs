@@ -13,11 +13,22 @@ namespace CMP1903_A1_2324
          * and one method that rolls the die, returns and integer and takes no parameters.
          */
 
-        //Property
+        // Set properties (value in this case)
+        private int _value;
+        private static readonly Random _random = new Random();
 
+        public int Value { get { return _value; } }
 
-        //Method
+        // Roll method, rolls the die
+        public int Roll()
+        {
 
+            // Get new random integer between 1 and 6 and store in value property
+            _value = _random.Next(1, 7);
+
+            // Return the new value
+            return _value;
+        }
 
     }
 }
