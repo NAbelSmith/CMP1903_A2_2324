@@ -8,7 +8,7 @@ namespace CMP1903_A1_2324
 {
     internal abstract class AbstractDiceGame : AbstractGame
     {
-        protected List<Die> _diceList;
+        protected static List<Die> _diceList;
 
         public AbstractDiceGame()
         {
@@ -23,15 +23,14 @@ namespace CMP1903_A1_2324
             }
         }
 
-        public int[] GetDiceValues()
+        protected int[] GetDiceValues()
         {
             if (_diceList.Count == 0) return null;
-            int[] diceVals = new int[_diceList.Count - 1];
-            foreach (Die die in _diceList)
+            int[] diceVals = new int[_diceList.Count];
+            for (int i = 0; i < _diceList.Count; i++)
             {
-                diceVals.Append(die.Value);
+                diceVals[i] = _diceList[i].Value;
             }
-
             return diceVals;
         }
     }

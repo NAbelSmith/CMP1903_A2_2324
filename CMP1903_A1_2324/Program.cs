@@ -54,8 +54,11 @@ namespace CMP1903_A1_2324
 
             SevensOut sevensOut = new SevensOut();
 
+            Die die = new Die();
+            //Console.WriteLine(die.Value);
+
             // Stop automatic termination of program
-            Console.WriteLine("Press any key to terminate the program.");
+            Console.WriteLine("\nPress any key to terminate the program.");
             Console.ReadKey();
         }
     }

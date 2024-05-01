@@ -32,7 +32,6 @@ namespace CMP1903_A1_2324
 
             foreach (var method in methods)
             {
-                Console.WriteLine($"{functionName} {method.Name}");
                 if (method.Name == functionName)
                 {
                     method.Invoke(this, null);
