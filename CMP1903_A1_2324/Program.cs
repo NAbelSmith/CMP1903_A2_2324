@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,27 +9,16 @@ namespace CMP1903_A1_2324
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             /*
-             * Create a Game object and call its methods.
-             * Create a Testing object to verify the output and operation of the other classes.
+             * Start the game options, giving the player the option to choose their game
              */
 
-            // Create new Game object
-            Game game = new Game();
-
-            // Create new Testing object
-            Testing test = new Testing();
-
-            // Test game functions as intended
-            test.RunTest();
-
-            // Endless loop
-            game.StartGame();
+            new GameController();
 
             // Stop automatic termination of program
-            Console.WriteLine("Press any key to terminate the program.");
+            Console.WriteLine("\nPress any key to terminate the program.");
             Console.ReadKey();
         }
     }

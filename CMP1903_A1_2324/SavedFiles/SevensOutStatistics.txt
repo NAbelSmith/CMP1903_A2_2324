@@ -1,0 +1,4 @@
+Top Score:40
+Number of Plays:2
+Player 1 Wins:1
+Player 2 Wins:0

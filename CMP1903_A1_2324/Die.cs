@@ -19,6 +19,12 @@ namespace CMP1903_A1_2324
 
         public int Value { get { return _value; } }
 
+        public Die()
+        {
+            // Roll the die on instantiation so that it has a value
+            Roll();
+        }
+
         // Roll method, rolls the die
         public int Roll()
         {
