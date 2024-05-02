@@ -37,7 +37,7 @@ namespace CMP1903_A1_2324
             menu.AddOption("Play: Player vs Player Mode", "PlayPlayer");
             menu.AddOption("Play: Player vs Computer Mode", "PlayComputer");
             //menu.AddOption("View: Game Statistics", "ViewStatistics");
-            menu.AddOption("Quit: Stop Playing SevensOut", "EndGame");
+            menu.AddOption("Quit: Stop Playing Sevens Out", "EndGame");
             menu.DisplayMenu();
             string selectedOption = menu.FetchSelectedOption();
             InvokeMethod(selectedOption);
@@ -154,7 +154,7 @@ namespace CMP1903_A1_2324
             GameMenu playerMenu = new GameMenu();
             playerMenu.AddOption("Roll Dice", "RunRound");
             //playerMenu.AddOption("View: Game Statistics", "ViewStatistics");
-            playerMenu.AddOption("Quit: Stop Playing SevensOut", "EndGame");
+            playerMenu.AddOption("Quit: Stop Playing Sevens Out", "EndGame");
             playerMenu.DisplayMenu();
             string selectedOption = playerMenu.FetchSelectedOption();
             InvokeMethod(selectedOption);
@@ -164,13 +164,11 @@ namespace CMP1903_A1_2324
         {
             if (passedArray.Length == 0) return true;
 
-            for (int i = 1; i < passedArray.Length; i++)
-            {
-                if (passedArray[i] != passedArray[0])
-                {
-                    return false;
-                }
-            }
+            var result = from number in passedArray
+                         where number == passedArray[0]
+                         select number;
+
+            if (result.Count() > 1) return true;
 
             return true;
         }

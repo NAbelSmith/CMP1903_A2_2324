@@ -52,13 +52,21 @@ namespace CMP1903_A1_2324
             // Endless loop
             game.StartGame();*/
 
-            SevensOut sevensOut = new SevensOut();
-
-            Die die = new Die();
-            //Console.WriteLine(die.Value);
+            //SevensOut sevensOut = new SevensOut();
+            ThreeOrMore threeOrMore = new ThreeOrMore();
 
             // Stop automatic termination of program
             Console.WriteLine("\nPress any key to terminate the program.");
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
+            Console.ReadKey();
             Console.ReadKey();
         }
     }

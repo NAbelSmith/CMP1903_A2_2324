@@ -19,11 +19,6 @@ namespace CMP1903_A1_2324
             Console.WriteLine("Ending the game!");
         }
 
-        public virtual void DisplayMenu()
-        {
-            Console.WriteLine("Displaying the menu!");
-        }
-
         protected void InvokeMethod(string functionName)
         {
             Type type = GetType();

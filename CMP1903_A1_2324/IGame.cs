@@ -10,6 +10,5 @@ namespace CMP1903_A1_2324
     {
         void StartGame();
         void EndGame();
-        void DisplayMenu();
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CMP1903_A1_2324
@@ -57,7 +58,7 @@ namespace CMP1903_A1_2324
                     Console.WriteLine($"The number must be between 1 and {_menuOptions.Count}.");
                     return FetchSelectedOption();
                 }
-
+                Thread.Sleep(2000);
                 return _menuOptions[convertedInput - 1].Item1;
             }
 
