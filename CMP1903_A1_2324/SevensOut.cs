@@ -15,7 +15,11 @@ namespace CMP1903_A1_2324
         private int _numOfDice = 2;
         private int[] _gameTotals = {0, 0};
         private int _playerTurn = 0;
-        private bool _gameOver = false;
+        private bool _testing = false;
+        private Statistics _statistics;
+
+        public int[] GetScores() { return _gameTotals; }
+        public int LastPlayerTurn() { if (_playerTurn == 0) return 1; else return 0; }
 
         public SevensOut()
         {
@@ -29,18 +33,43 @@ namespace CMP1903_A1_2324
             for (int i = 0; i < _numOfDice; i++)
             { 
                 _diceList.Add(new Die());
-                Console.WriteLine(_diceList[i].Value);
             }
+
+            _statistics = new Statistics(this);
 
             Console.WriteLine("You are now playing Sevens Out!\nYou will have a variety of options to choose from.\n");
             GameMenu menu = new GameMenu();
             menu.AddOption("Play: Player vs Player Mode", "PlayPlayer");
             menu.AddOption("Play: Player vs Computer Mode", "PlayComputer");
-            //menu.AddOption("View: Game Statistics", "ViewStatistics");
+            menu.AddOption("View: Game Statistics", "ViewStatistics");
             menu.AddOption("Quit: Stop Playing Sevens Out", "EndGame");
             menu.DisplayMenu();
             string selectedOption = menu.FetchSelectedOption();
             InvokeMethod(selectedOption);
+        }
+
+        public SevensOut(bool testing)
+        {
+            if (!testing) return;
+            _testing = true;
+
+            // Ensure set value for _numOfDie is within allowed range
+            if (_numOfDice <= 1)
+            {
+                Console.WriteLine($"Set number of die ({_numOfDice}) is lower than the minimum number (2). Set number of die to 2.");
+                _numOfDice = 2;
+            }
+
+            for (int i = 0; i < _numOfDice; i++)
+            {
+                _diceList.Add(new Die());
+                Console.WriteLine(_diceList[i].Value);
+            }
+        }
+
+        public void RunTest()
+        {
+            RunRound();
         }
 
         private bool RunRound()
@@ -53,7 +82,6 @@ namespace CMP1903_A1_2324
             {
                 diceTotals += diceValue;
             }
-            
             if (diceTotals == 7)
             {
                 DisplayRoundResults(diceValues, isDouble, diceTotals);
@@ -97,6 +125,7 @@ namespace CMP1903_A1_2324
 
         public override void StartGame()
         {
+            _statistics.statistics["Number of Plays"] = $"{int.Parse(_statistics.statistics["Number of Plays"])+1}";
             bool canContinue = true;
             _gameOver = false;
             while (canContinue)
@@ -130,12 +159,17 @@ namespace CMP1903_A1_2324
                 Console.WriteLine($"There was a draw! No individual player won. With a shared score of {_gameTotals[0]}.");
             } else if (_gameTotals[0] > _gameTotals[1])
             {
+                if (_gameTotals[0] > int.Parse(_statistics.statistics["Top Score"])) _statistics.statistics["Top Score"] = $"{_gameTotals[0]}";
+                _statistics.statistics["Player 1 Wins"] = $"{int.Parse(_statistics.statistics["Player 1 Wins"]) + 1}";
                 Console.WriteLine($"Player 1 won! With a total of {_gameTotals[0]}. Whereas Player 2 had {_gameTotals[1]}.");
             } else
             {
+                _statistics.statistics["Player 2 Wins"] = $"{int.Parse(_statistics.statistics["Player 2 Wins"]) + 1}";
+                if (_gameTotals[1] > int.Parse(_statistics.statistics["Top Score"])) _statistics.statistics["Top Score"] = $"{_gameTotals[1]}";
                 Console.WriteLine($"Player 2 won! With a total of {_gameTotals[1]}. Whereas Player 1 had {_gameTotals[0]}.");
             }
-            //ViewStatistics();
+            ViewStatistics();
+            if (!_testing) _statistics.SaveStatistics(this);
         }
 
         private void CyclePlayer()
@@ -153,16 +187,21 @@ namespace CMP1903_A1_2324
         {
             GameMenu playerMenu = new GameMenu();
             playerMenu.AddOption("Roll Dice", "RunRound");
-            //playerMenu.AddOption("View: Game Statistics", "ViewStatistics");
+            playerMenu.AddOption("View: Game Statistics", "ViewStatistics");
             playerMenu.AddOption("Quit: Stop Playing Sevens Out", "EndGame");
             playerMenu.DisplayMenu();
             string selectedOption = playerMenu.FetchSelectedOption();
             InvokeMethod(selectedOption);
         }
 
+        private void ViewStatistics()
+        {
+            _statistics.ShowStatistics();
+        }
+
         private bool CheckEqual(int[] passedArray)
         {
-            if (passedArray.Length == 0) return true;
+            if (passedArray.Length == 0) return false;
 
             var result = from number in passedArray
                          where number == passedArray[0]
@@ -170,7 +209,7 @@ namespace CMP1903_A1_2324
 
             if (result.Count() > 1) return true;
 
-            return true;
+            return false;
         }
 
         private void PlayPlayer()

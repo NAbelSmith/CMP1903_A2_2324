@@ -8,6 +8,7 @@ namespace CMP1903_A1_2324
 {
     internal interface IGame
     {
+        // Setup essential methods
         void StartGame();
         void EndGame();
     }

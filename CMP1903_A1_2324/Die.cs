@@ -21,6 +21,7 @@ namespace CMP1903_A1_2324
 
         public Die()
         {
+            // Roll the die on instantiation so that it has a value
             Roll();
         }
 

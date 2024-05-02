@@ -1,0 +1,5 @@
+Top Score:21
+Number of Plays:1
+Player 1 Wins:1
+Player 2 Wins:0
+Fastest Win:23
