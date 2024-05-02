@@ -267,3 +267,287 @@
 [2024-05-02 13:32:57] [Testing] Player 1 calculated score: 21. Actual score: 21.
 [2024-05-02 13:32:57] [Testing] Player 2 calculated score: 9. Actual score: 9.
 [2024-05-02 13:32:57] [Testing] Test complete!
+[2024-05-02 15:43:52] [Testing] Running a test!
+[2024-05-02 15:43:52] [Testing] A score of 5 was found.
+[2024-05-02 15:43:52] [Testing] Player 1 calculated score is: 5. Actual score: 5.
+[2024-05-02 15:43:52] [Testing] A score of 3 was found.
+[2024-05-02 15:43:52] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:43:52] [Testing] A score of 3 was found.
+[2024-05-02 15:43:52] [Testing] Player 1 calculated score is: 8. Actual score: 8.
+[2024-05-02 15:43:52] [Testing] A score of 6 was found.
+[2024-05-02 15:43:52] [Testing] Player 2 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:43:52] [Testing] A score of 12 was found.
+[2024-05-02 15:43:52] [Testing] Player 1 calculated score is: 32. Actual score: 32.
+[2024-05-02 15:43:52] [Testing] A score of 4 was found.
+[2024-05-02 15:43:52] [Testing] Player 2 calculated score is: 17. Actual score: 17.
+[2024-05-02 15:43:52] [Testing] A score of 4 was found.
+[2024-05-02 15:43:52] [Testing] Player 1 calculated score is: 40. Actual score: 40.
+[2024-05-02 15:44:57] [Testing] Running a test!
+[2024-05-02 15:44:57] [Testing] A score of 9 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:44:57] [Testing] A score of 6 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 6. Actual score: 6.
+[2024-05-02 15:44:57] [Testing] A score of 5 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 14. Actual score: 14.
+[2024-05-02 15:44:57] [Testing] A score of 6 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 18. Actual score: 18.
+[2024-05-02 15:44:57] [Testing] A score of 9 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 23. Actual score: 23.
+[2024-05-02 15:44:57] [Testing] A score of 8 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 26. Actual score: 26.
+[2024-05-02 15:44:57] [Testing] A score of 9 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 32. Actual score: 32.
+[2024-05-02 15:44:57] [Testing] A score of 7 was found.
+[2024-05-02 15:44:57] [Testing] 7 rolled. Game status concluded: True
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 32. Actual score: 32.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score: 32. Actual score: 32.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score: 26. Actual score: 26.
+[2024-05-02 15:44:57] [Testing] Testing for SevensOut was completed successfully! Moving onto ThreeOrMore testing!
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 6
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 0. Actual score: 0.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 0. Actual score: 0.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 2
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 0. Actual score: 0.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 0. Actual score: 0.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 3
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 0. Actual score: 0.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 2
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 0. Actual score: 0.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 3
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 6
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 5
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 6. Actual score: 6.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 3
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 3
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 6
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 12. Actual score: 12.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 12. Actual score: 12.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 3. Actual score: 3.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 6
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 15. Actual score: 15.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 5
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 6. Actual score: 6.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 15. Actual score: 15.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 6. Actual score: 6.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 2
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 15. Actual score: 15.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 4
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 3
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 18. Actual score: 18.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 2
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 4
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 9. Actual score: 9.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 2
+[2024-05-02 15:44:57] [Testing] A score of 0 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 18. Actual score: 18.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 6
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 3
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 1
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score is: 12. Actual score: 12.
+[2024-05-02 15:44:57] [Testing] Dice 1 value: 5
+[2024-05-02 15:44:57] [Testing] Dice 2 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 3 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 4 value: 1
+[2024-05-02 15:44:57] [Testing] Dice 5 value: 5
+[2024-05-02 15:44:57] [Testing] A score of 3 was found.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score is: 21. Actual score: 21.
+[2024-05-02 15:44:57] [Testing] Player 1 calculated score: 21. Actual score: 21.
+[2024-05-02 15:44:57] [Testing] Player 2 calculated score: 12. Actual score: 12.
+[2024-05-02 15:44:57] [Testing] Test complete!
