@@ -82,6 +82,9 @@ namespace CMP1903_A1_2324
             {
                 _diceList.Add(new Die());
             }
+
+            // Create an access point for statistics
+            _statistics = new Statistics(this);
         }
 
         public void RunTest()
