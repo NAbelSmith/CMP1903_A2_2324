@@ -16,6 +16,7 @@ namespace CMP1903_A1_2324
         public Statistics(SevensOut sevensOutGame) 
         {
             _targetFile = @"..\..\SavedFiles\SevensOutStatistics.txt";
+            // Update statistics variable and convert recovered statistics to a dictionary for ease of access
             string[] recoveredContents = ToArray(_targetFile);
             foreach (string value in recoveredContents)
             {
@@ -27,6 +28,7 @@ namespace CMP1903_A1_2324
         public Statistics(ThreeOrMore threeOrMore)
         {
             _targetFile = @"..\..\SavedFiles\ThreeOrMoreStatistics.txt";
+            // Update statistics variable and convert recovered statistics to a dictionary for ease of access
             string[] recoveredContents = ToArray(_targetFile);
             foreach(string value in recoveredContents)
             {
@@ -94,6 +96,7 @@ namespace CMP1903_A1_2324
 
         public void ShowStatistics()
         {
+            // Output all statistics selected
             Console.WriteLine("Current Statistics:");
             foreach (var stat in statistics)
             {
