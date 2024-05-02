@@ -165,9 +165,6 @@ namespace CMP1903_A1_2324
                 {
                     Console.WriteLine($"\nPlayer {_playerTurn + 1}'s (Computer) Turn.");
                     canContinue = RunRound();
-                    _running = false;
-                    _reRunLockout = false;
-                    _reRoll = false;
                 }
                 else
                 {
@@ -224,6 +221,9 @@ namespace CMP1903_A1_2324
             {
                 _playerTurn = 0;
             }
+            _running = false;
+            _reRunLockout = false;
+            _reRoll = false;
         }
 
         private void PlayerInput()
